@@ -1,0 +1,79 @@
+body{color: #222222;
+    font-family: sans-serif;}
+.editableImage {background-color:#eee; border:3px solid #ccc;background-image:url(t_bg.png);}
+.editableImage canvas{
+display:block;float:left;
+background-color: #fff;
+background-image:url('t_bg.png');
+
+}
+
+.toolbox{text-align:right;padding:5px; float:right;position:relative;background-color:rgba(50,50,50,0.5);}
+.toolbox i{color:#eee;padding:0 5px; }
+.toolbox i:hover{color:#fff;}
+
+.noNew .icon-picture{display:none}
+.noDelete .icon-trash{display:none}
+.noEdit .icon-edit{display:none}
+.eimgDialog{
+background-color: rgba(0,0,0,0.7);
+height: 100%;
+left: 0;
+position: absolute;
+text-align: center;
+top: 0;
+width: 100%;
+z-index: 1000;
+display:none;
+}
+
+.jcrop-holder{
+	margin:10px 0 0 0px;
+	border:3px solid #fff;
+	border-bottom:none;
+}
+
+.eimgDialog .imgCropToolbar{ }
+
+canvas.workspace{display:none;}
+
+.toolbar{float:left;background-color:#eee;width:inherit; border:3px solid #ddd;position:relative;left:-3px;}
+.toolbar a{padding:3px 5px;}
+.toolbar a:hover{background-color:#dedede;cursor:pointer;}
+.toolbar .btnCancel{float:left; display:none}
+.toolbar .btnUpload {float:right;}
+.toolbar .btnEdit {float:right; display:none}
+
+
+.imgCropToolbar{float:left;background-color:#eee;width:inherit; border:3px solid #fff;margin:0 0 0 0px;}
+.imgCropToolbar a{padding:3px 5px;}
+.imgCropToolbar a:hover{background-color:#dedede;cursor:pointer;}
+.imgCropToolbar .btnCancel{float:left; }
+.imgCropToolbar .btnOk{float:right}
+
+.fileInput{
+background-color:#fff;
+margin: 10px 0 10px 0px;
+float:left;
+display:none;
+}
+
+.dialogInner{margin:0 auto;background-color:#fff}
+
+.dropbox{
+text-align:center;
+border: 2px dashed #ccc;
+padding: 10px 5px;
+background-color: #eee;
+margin-bottom: 10px;
+}
+
+.jcrop-holder div:first-child img{max-width:none !important;}
+
+
+
+
+
+
+
+
